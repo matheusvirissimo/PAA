@@ -12,11 +12,11 @@ def bubble_sort(array): ## recebe uma lista
                 array[i+1] = temp 
     return array # não é necessário
 
-array = [39, 12, 18, 85, 72, 10, 2, 18]
-print("Array desorganizado")
-print(array)
+# array = [39, 12, 18, 85, 72, 10, 2, 18]
+# print("Array desorganizado")
+# print(array)
 
-bubble_sort(array)
+# bubble_sort(array)
 
-print("Array organizado:")
-print(array)
+# print("Array organizado:")
+# print(array)
