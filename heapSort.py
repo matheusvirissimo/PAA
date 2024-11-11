@@ -32,12 +32,8 @@ def heap_sort(arr):
         # Heapifica a subárvore reduzida
         heapify(arr, i, 0)
 
-def heap_sort_with_print(arr):
-    print("Array antes da ordenação (Heap Sort):", arr)
-    heap_sort(arr)
-    print("Array depois da ordenação (Heap Sort):", arr)
-    return arr
-
-# Array de exemplo
-array = [39, 12, 18, 85, 72, 10, 2, 18]
-heap_sort_with_print(array)
+# def heap_sort_with_print(arr):
+#     print("Array antes da ordenação (Heap Sort):", arr)
+#     heap_sort(arr)
+#     print("Array depois da ordenação (Heap Sort):", arr)
+#     return arr

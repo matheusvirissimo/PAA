@@ -23,6 +23,6 @@ def shell_sort_with_print(arr):
     print("Array depois da ordenação (Shell Sort):", arr)
     return arr
 
-# Array de exemplo
-array = [39, 12, 18, 85, 72, 10, 2, 18]
-shell_sort_with_print(array)
+# # Array de exemplo
+# array = [39, 12, 18, 85, 72, 10, 2, 18]
+# shell_sort_with_print(array)

@@ -13,12 +13,12 @@ def bubble_sort_melhorado(array):
         if not troca:
             break
 
-array = [39, 12, 18, 85, 72, 10, 2, 18]
-print("Array desorganizado")
-print(array)
+# array = [39, 12, 18, 85, 72, 10, 2, 18]
+# print("Array desorganizado")
+# print(array)
 
-bubble_sort_melhorado(array)
+# bubble_sort_melhorado(array)
 
-print("Array organizado:")
-print(array)
+# print("Array organizado:")
+# print(array)
             

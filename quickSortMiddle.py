@@ -17,6 +17,6 @@ def quicksort_middle_pivot_with_print(arr):
     print("Array depois da ordenação (pivô = elemento central):", sorted_arr)
     return sorted_arr
 
-# Array de exemplo
-array = [39, 12, 18, 85, 72, 10, 2, 18]
-quicksort_middle_pivot_with_print(array)
+# # Array de exemplo
+# array = [39, 12, 18, 85, 72, 10, 2, 18]
+# quicksort_middle_pivot_with_print(array)

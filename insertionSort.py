@@ -16,5 +16,5 @@ def insertion_sort_with_print(arr):
     return arr
 
 # Array de exemplo
-array = [39, 12, 18, 85, 72, 10, 2, 18]
-insertion_sort_with_print(array)
+# array = [39, 12, 18, 85, 72, 10, 2, 18]
+# insertion_sort_with_print(array)
