@@ -1,4 +1,4 @@
-import BubbleSort, BubbleSortMelhorado, quickSortFirst, quickSortMiddle ## por troca
+import bubblesort, BubbleSortMelhorado, quickSortFirst, quickSortMiddle ## por troca
 import insertionSort, shellSort ## por inserção 
 import selectionSort, heapSort, mergeSort # por seleção
 
@@ -42,7 +42,7 @@ def main():
         # "Bubble Sort": BubbleSort.bubble_sort,
         # "Bubble Sort Melhorado": BubbleSortMelhorado.bubble_sort_melhorado,
         # "Quick Sort com pivô no INÍCIO": quickSortFirst.quicksort_first_pivot,
-        # "Quick Sort com pivô no MEIO": quickSortMiddle.quicksort_middle_pivot,
+         "Quick Sort com pivô no MEIO": quickSortMiddle.quicksort_middle_pivot,
         # "Insertion Sort": insertionSort.insertion_sort,
         # "Shell Sort": shellSort.shell_sort,
         # "Selection Sort": selectionSort.selection_sort,
@@ -50,7 +50,9 @@ def main():
         # "Merge Sort": mergeSort.merge_sort,
     }
 
-    tam_vetor = [1000, 5000, 10000, 15000, 20000, 25000, 30000, 35000, 40000]
+    tam_vetor = [1000, 5000, 10000, 15000, 20000, 25000, 30000, 35000, 40000, 45000, 50000,
+                 55000, 60000, 65000, 70000, 75000, 80000, 85000, 90000, 95000, 100000,
+                 125000, 150000, 175000, 200000]
 
     for algo_nome, algo_func in algoritmos_ordenacao.items():
         resultados = {"Tamanho do Vetor": tam_vetor}
